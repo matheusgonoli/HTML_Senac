@@ -1,0 +1,22 @@
+/* FORMATANDO A AREA DA BARRA DE NAVEGAÇÂO */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+/* FORMATANDO OS ITENS DA BARRA DE NAVEGAÇÂO */
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* FORMATANDO OS ITENS DA BARRA DE NAVEGAÇÂO QUANDO PASSAR O MOUSE */
+li a:hover {
+    background-color: #121111;
+    color: white;
+}
